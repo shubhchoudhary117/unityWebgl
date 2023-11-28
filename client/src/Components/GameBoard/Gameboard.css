@@ -792,3 +792,125 @@
     cursor: pointer;
 }
 }
+
+
+/* Mediao quires for different screen sizes */
+@media screen and (min-width:1280px) and (max-width:1340px){
+    /* unity game box designe */
+.unity-game-box {
+    width: 100%;
+    height:320px;
+    margin-top: 5px;
+}
+.unity-game-box .canvas{
+    width: 100%;
+    height: 100%;
+}
+.unity-game-box .canvas .unity {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+}
+
+}
+
+/* Mediao quires for different screen sizes */
+@media screen and (min-width:1366px) and (max-width:1400px){
+    /* unity game box designe */
+.unity-game-box {
+    width: 100%;
+    height:440px;
+    margin-top: 5px;
+}
+.unity-game-box .canvas{
+    width: 100%;
+    height: 100%;
+}
+.unity-game-box .canvas .unity {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+}
+
+}
+
+/* Mediao quires for different screen sizes */
+@media screen and (min-width:1440px) and (max-width:1540px){
+    /* unity game box designe */
+.unity-game-box {
+    width: 100%;
+    height:460px;
+    margin-top: 5px;
+}
+.unity-game-box .canvas{
+    width: 100%;
+    height: 100%;
+}
+.unity-game-box .canvas .unity {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+}
+
+}
+
+/* Mediao quires  large screen sizes */
+@media screen and (min-width:1600px) and (max-width:1640px){
+    /* unity game box designe */
+.unity-game-box {
+    width: 100%;
+    height:590px;
+    margin-top: 5px;
+}
+.unity-game-box .canvas{
+    width: 100%;
+    height: 100%;
+}
+.unity-game-box .canvas .unity {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+}
+
+}
+
+
+/* Mediao quires  large screen sizes */
+@media screen and (min-width:1680px) and (max-width:1940px){
+    /* unity game box designe */
+.unity-game-box {
+    width: 100%;
+    height:640px;
+    margin-top: 5px;
+}
+.unity-game-box .canvas{
+    width: 100%;
+    height: 100%;
+}
+.unity-game-box .canvas .unity {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+}
+
+}
+/* for  extra large screen */
+/* @media screen and (min-width:1920px) and (max-width:2600px){
+
+.unity-game-box {
+    width: 100%;
+    height:458px;
+    min-height: 690px;
+    margin-top: 5px;
+}
+.unity-game-box .canvas{
+    width: 100%;
+    height: 100%;
+}
+.unity-game-box .canvas .unity {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+}
+
+} */

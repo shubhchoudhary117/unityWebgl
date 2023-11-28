@@ -9,6 +9,10 @@ import $ from "jquery"
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 const Gameboard = () => {
 
+    useEffect(()=>{
+        let windowHeight=window.innerHeight;
+        console.log(windowHeight)
+    },[])
 
     const { unityProvider } = useUnityContext({
         loaderUrl: process.env.PUBLIC_URL + "/Build/Builds.loader.js",
@@ -21,9 +25,9 @@ const Gameboard = () => {
     //Owl Carousel Settings
     const options = {
         loop: true,
-        center: true,
+        center: false,
         items: 8,
-        margin: 0,
+        margin:-285,
         autoplay: false,
         dots: false,
         autoplayTimeout: 8500,
